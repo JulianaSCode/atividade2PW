@@ -1,0 +1,66 @@
+.secaoHabilidades {
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.secaoHabilidades h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.secaoConteudo {
+    background-color: #c7c7c7;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.secaoConteudo img {
+    mix-blend-mode: multiply;
+    width: 150px;
+}
+
+.habilidade {
+    background-color: orange;
+    width: 20%;
+    padding: 10px;
+}
+
+.habilidade img {
+    width: 40px;
+    aspect-ratio: auto;
+}
+
+.cabecalhoHabilidade {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+    gap: 5px;
+}
+
+.cabecalhoHabilidade h3 {
+    font-size: 25px;
+}
+
+#habilidadeHTML {
+    background-color: #ffa94e;
+}
+
+#habilidadeCSS {
+    background-color: cadetblue;
+}
+
+#habilidadeJS {
+    background-color: #f9ff55;
+}
+
+#habilidadePHP {
+    background-color: #cacaca;
+}

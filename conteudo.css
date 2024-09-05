@@ -14,16 +14,33 @@
 }
 
 .secaoConteudo {
-    background-color: #c7c7c7;
     display: flex;
     gap: 20px;
     padding: 10px;
     margin-top: 10px;
 }
 
+.secaoConteudo:nth-child(odd) {
+    background-color: #dad8d8;
+}
+
+.secaoConteudo:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+    background-color: #f1f1f1;
+}
+
 .secaoConteudo img {
     mix-blend-mode: multiply;
     width: 150px;
+}
+
+.bibliografia a{
+color: black;
+}
+
+hr {
+    border-width: 10px;
 }
 
 .habilidade {

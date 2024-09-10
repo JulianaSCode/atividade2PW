@@ -1,0 +1,91 @@
+.secaoNotas {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.secaoNotas:nth-child(odd) {
+    background-color: #dad8d8;
+}
+
+.secaoNotas:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+    background-color: #f1f1f1;
+}
+
+.secaoNotas img {
+    mix-blend-mode: multiply;
+    width: 150px;
+}
+
+.secaoNotas h4 {
+    color: #555;
+    margin-top: 20px;
+}
+
+.secaoNotas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.secaoNotas li {
+    margin: 5px 0;
+}
+
+.secaoNotas p {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+hr {
+    border-width: 10px;
+    border-color:red;
+}
+
+
+.secaoExame {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcccc; 
+    text-align: center; 
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.secaoExame h2 {
+    color: red;
+    margin-right: 10px; 
+}
+
+.secaoExame img {
+    width: 40px;
+    height: auto;
+}
+
+.avaliacao {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    padding: 25px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.item:nth-child(odd) {
+    background-color: #dad8d8;
+}
+
+.item:nth-child(even) {
+    background-color: #c2c2c2;
+}

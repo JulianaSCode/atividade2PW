@@ -1,0 +1,22 @@
+.secaoAjuda {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.secaoAjuda img {
+    mix-blend-mode: multiply;
+    width: 200px;
+}
+
+.secaoAjuda:nth-child(odd) {
+    background-color: #dad8d8;
+}
+
+.secaoAjuda:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+    background-color: #f1f1f1;
+}
+
